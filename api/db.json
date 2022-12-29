@@ -1,0 +1,86 @@
+{
+  "budget" :[
+    {
+      "id": 1,
+      "year": 2023,
+      "dtInsert": "2021-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "balance" : [
+    {
+      "id": 1,
+      "month": 1,
+      "dtInsert":"2021-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "account": [
+    {
+      "id": 1,
+      "name": "Salário",
+      "description": "Presentes para a Quécia",
+      "category": "RENDA",
+      "type": "INCOME",
+      "amount": 100,
+      "origin": "SALARIO",
+      "number_installment": 1,
+      "installment": 1,
+      "budgetId": 1,
+      "balanceId": 1,
+      "dtInsert": "2021-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Alugel",
+      "description": "Presentes para a Quécia",
+      "category": "GASTO",
+      "type": "EXPENSE",
+      "amount": 100,
+      "origin": "SALARIO",
+      "number_installment": 1,
+      "installment": 1,
+      "budgetId": 1,
+      "balanceId": 1,
+      "dtInsert": "2021-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Independência Financeira",
+      "description": "Presentes para a Quécia",
+      "category": "INVESTIMENT",
+      "type": "EXPENSE",
+      "amount": 100,
+      "origin": "SALARIO",
+      "number_installment": 1,
+      "installment": 1,
+      "budgetId": 1,
+      "balanceId": 1,
+      "dtInsert": "2021-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Presentes",
+      "description": "Presentes para a Quécia",
+      "category": "GASTO",
+      "type": "EXPENSE",
+      "amount": 100,
+      "origin": "SALARIO",
+      "number_installment": 1,
+      "installment": 1,
+      "budgetId": 1,
+      "balanceId": 1,
+      "dtInsert": "2021-01-01T00:00:00.000Z"
+    }
+  ],
+ 
+  "item" : [
+    {
+      "id": 1,
+      "title": "Sapatos",
+      "accountId": 4,
+      "dtInsert": "2021-01-01T00:00:00.000Z"
+    }
+  ]
+
+}
